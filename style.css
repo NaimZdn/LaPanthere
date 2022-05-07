@@ -79,7 +79,7 @@ a:hover {
     right: 0;
 }
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("./img/texture-paper.webp");
     background-size: 280px 280px;
 }
 .b-parallax {
@@ -505,7 +505,8 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
+    padding-bottom: 2px;
 }
 
 .tight-width-whitespace {
@@ -638,11 +639,11 @@ h4 {
 
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("./img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url(./img/image-de-presentation.jpg);
+    background-image: url(./img/image-de-presentation.webp);
 }
 
 @media (max-width: 1024px) {
@@ -864,8 +865,20 @@ h4 {
 .quote {
 
     font-style: italic;
-    font-size: 17px;
+    font-weight: bold;
+    font-size: 18px;
     margin-bottom: 3 px;
 }
 
+label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.mail-to{
+
+    font-size: 16px;
+    font-weight: bold;
+   
+}
 
