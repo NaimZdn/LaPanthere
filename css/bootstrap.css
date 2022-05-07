@@ -1429,8 +1429,7 @@ figure {
 img {
     vertical-align: middle;
     margin: auto;
-    height: 100%;
-    width: 100%
+    
 }
 
 .carousel-inner>.item>a>img,
